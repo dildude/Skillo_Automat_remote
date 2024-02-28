@@ -3,9 +3,9 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 ### Windows OS ###
-/git-demo-project-env.iml
+/Skilo_automation_local.iml
 /.idea/*
 
 ### UNIX OS ###
-\git-demo-project-env.iml
+\Skilo_automation_local.iml
 \.idea\*
