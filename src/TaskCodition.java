@@ -1,5 +1,3 @@
-package hw4;
-
 public class TaskCodition {
 
     /* 1. Write a program to print the days of the week based on the user digit 1-7 input.
