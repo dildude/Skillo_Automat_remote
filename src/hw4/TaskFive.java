@@ -2,10 +2,10 @@ package hw4;
 
 import java.util.Scanner;
 
-public class TaskFour {
+public class TaskFive {
     public static void main(String[] args) {
 
-        /* This is number 5 form the TaskConditions */
+       
 
         Scanner scanner = new Scanner(System.in);
 
