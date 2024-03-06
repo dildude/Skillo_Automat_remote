@@ -18,11 +18,11 @@ public class Task3 {
 
         // 3. Get user input for each element
         System.out.println("Enter the matrix elements (row-wise): ");
-        for (int i = 0; i <= rows - 1 ; i++) {
-            for (int j = 0; j <= columns - 1; j++) {
+        for (int i = 0; i < rows  ; i++) {
+            for (int j = 0; j < columns ; j++) {
                 dynamArray[i][j] = scanner.nextInt();
             }
-            
+
         }
         // 4. Print the matrix elements
         System.out.println("The matrix: ");
