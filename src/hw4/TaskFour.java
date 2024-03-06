@@ -11,8 +11,11 @@ public class TaskFour {
         for (int i = 1; i < nums.length; i++){
             if (nums[i] > setLargest){
                 setLargest = nums[i];  // updating the largest num if there is a bigger one from the initial
+
             }
+
         }
 
+        System.out.println(setLargest);
     }
 }
