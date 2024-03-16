@@ -1,0 +1,31 @@
+    1. Create abstract class Shape. Add 2 abstract methods – getArea / getPerimeter – return type of
+    both methods is Double
+    Create class Circle which inherits Shape. Implement all abstract methods in Circle.
+    Create class Square which inherits Shape. Implement all abstract methods in Square.
+    Use Math.Pi for Circle calculations.
+    Create a main class and add the code on next slide. Try to predict what will be the result and then
+    execute the code.
+
+    Circle s1 = new Circle();
+    System.out.println(s1.getArea(3.0));
+    System.out.println(s1);
+    Shape s2 = new Circle(); // Upcast Circle to Shape
+    System.out.println(s2.getArea(3.0));
+    System.out.println(s2);
+    Circle s3 = (Circle) s2; // Downcast back to Circle
+    System.out.println(s3);
+    System.out.println(s2.getPerimeter(3.0));
+    // Square s4 = new Shape();
+    Square s5 = new Square();
+    System.out.println(s5.getArea(6.0));
+    System.out.println(s5.getPerimeter(6.0));
+
+
+    2. Create class Employee with the following attributes – id, first name, last name , salary per month.
+    Id, first name , last name – must be set only once
+    Salary – can be updated any time
+    Add the following methods – getName() / getAnnualSalary() / raiseSalary()
+    getName – combines firstname and last name
+    getAnnualSalary – return what is the annual salary for the employee
+    raiseSalary – modify current salary by X% and return the update salary
+    toString – should print all the information about the employee
